@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_crime"
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/layout/activity_crime.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_crime"
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/layout/fragment_crime.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >CriminalIntent
+                </string>
+                <string name="crime_title_hint" >Enter a title for this crime.
+                </string>
+                <string name="crime_title_label" >Title
+                </string>
+            </file>
+            <file
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" />
+            </file>
+            <file
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" />
+            </file>
+        </source>
+        <source path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/build/generated/res/rs/debug" />
+        <source path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/amundada/Documents/android/myApps/OriginalProjects/app/src/debug/res" />
+    </dataSet>
+
+</merger>
